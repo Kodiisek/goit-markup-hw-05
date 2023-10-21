@@ -111,8 +111,17 @@ img {
     letter-spacing: 0.54px;
     text-transform: uppercase;
     margin-right: 76px;
-    
-}
+    }
+    .nav-logo:hover, .nav-logo:focus{
+        color: var(--IRIS, #4D5AE5);
+            font-family: Raleway, sans-serif;
+            font-size: 18px;
+            font-weight: 800;
+            line-height: 1.17;
+            letter-spacing: 0.54px;
+            text-transform: uppercase;
+            margin-right: 76px;
+    }
 
 .nav-span {
     color: var(--NAVY-BLUE, #2E2F42);
@@ -486,7 +495,7 @@ img {
     
 }
 .second-html{
-    padding-bottom: 120px;
+    padding-top: 0;
 }
 .second-heading {
     color: var(--NAVY-BLUE, #2E2F42);
